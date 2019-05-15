@@ -10,6 +10,8 @@ def call(body) {
         git clone https://github.com/durgaprasad444/hello-world.git
         cd hello-world
         cp -r * /var/lib/jenkins/workspace/target
+        rm -rf settings-security.xml
+        rm -rf settings.xml
         """
         
     }
