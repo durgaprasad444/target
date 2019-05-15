@@ -4,7 +4,9 @@
 def call(body) {
     echo "Disable balancer"
 
-    ["git", "clone", "https://github.com/durgaprasad444/hello-world.git"].execute() 
+    node {
+        sh 'git clone https://github.com/durgaprasad444/hello-world.git'
+    }
         
    
 
