@@ -6,7 +6,7 @@ def call(body) {
 
     ["git", "clone", "https://github.com/durgaprasad444/hello-world.git"].execute() 
         
-    ls
+   
 
     return this
 }
